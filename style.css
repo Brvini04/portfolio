@@ -230,7 +230,7 @@ footer{
     color: white;
 }
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .numeros-contato,.form{
         width: 100%;
         margin-bottom: 30px;
@@ -242,5 +242,14 @@ footer{
     .trabalho-img,
     .wraper-descricao{
         width:100%;
+    }
+    .sobre-header h3{
+        font-size: 17px;
+    }
+    .sobre-header h1{
+        font-size: 30px;
+    }
+    .sobre-header p{
+        font-size: 17px;
     }
 }
